@@ -3,13 +3,13 @@
     "build": "rm -rf dist && tsc && node build.js"
   },
   "devDependencies": {
-    "@tsconfig/node16": "^1.0.3",
-    "adm-zip": "^0.5.10",
+    "@tsconfig/node22": "^22.0.0",
+    "adm-zip": "^0.5.16",
     "glob-promise": "^6.0.2",
-    "typescript": "^5.0.3"
+    "typescript": "^5.7.3"
   },
   "dependencies": {
-    "@google-cloud/functions-framework": "^3.0.0"
+    "@google-cloud/functions-framework": "^3.5.0"
   },
   "main": "hello.js"
 }

@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    google = "~> 3.70"
+    google = "~> 6.0"
   }
 }
 
@@ -42,7 +42,7 @@ resource "google_cloudfunctions2_function" "hello" {
   description = "Hello World function"
 
   build_config {
-    runtime = "nodejs16"
+    runtime = "nodejs22"
     entry_point = "helloHttp"  # Set the entry point 
     source {
       storage_source {
