@@ -11,5 +11,9 @@
   "dependencies": {
     "@google-cloud/functions-framework": "^5.0.0"
   },
+  "overrides": {
+    "body-parser": "^2.2.1",
+    "brace-expansion": "^2.0.2"
+  },
   "main": "hello.js"
 }
