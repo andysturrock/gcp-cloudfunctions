@@ -9,7 +9,7 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "@google-cloud/functions-framework": "^5.0.0"
+    "@google-cloud/functions-framework": "^5.0.1"
   },
   "overrides": {
     "body-parser": "^2.2.1",
