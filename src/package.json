@@ -6,7 +6,7 @@
     "@tsconfig/node22": "^22.0.0",
     "adm-zip": "^0.6.0",
     "glob-promise": "^6.0.7",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "dependencies": {
     "@google-cloud/functions-framework": "^5.0.2"
