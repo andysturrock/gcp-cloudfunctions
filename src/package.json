@@ -3,7 +3,7 @@
     "build": "rm -rf dist && tsc && node build.js"
   },
   "devDependencies": {
-    "@tsconfig/node22": "^22.0.0",
+    "@tsconfig/node22": "^22.0.6",
     "adm-zip": "^0.6.0",
     "glob-promise": "^6.0.7",
     "typescript": "^7.0.2"
